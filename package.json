@@ -1,0 +1,17 @@
+{
+  "name": "brainastraproducer",
+  "version": "1.0.0",
+  "description": "Receive client data and produce kafka events.",
+  "main": "producer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+    "requirejs": "^2.3.6",
+    "ws": "^7.4.6"
+  },
+  "type": "commonjs"
+}
